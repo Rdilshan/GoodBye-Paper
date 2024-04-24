@@ -55,3 +55,6 @@ app.get("/getpdf", (req, res) => {
     }
   });
 });
+
+
+// https://pdfkit.org/docs/images.html
