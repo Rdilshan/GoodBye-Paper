@@ -1,0 +1,14 @@
+{
+  "name": "goodbye-paper",
+  "version": "1.0.0",
+  "description": "Goodbye Paper helps to share and manage PDFs  between people. Also, it helps to find the required pdf  easily by filtering and sharing the pdf only with the  specified people. When dealing with an individual or an  organization with their valuable PDF, saying goodbye  can be a solution to many of their problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
