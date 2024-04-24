@@ -44,7 +44,7 @@ app.post("/pdf", upload.array("images"), (req, res) => {
   }
 });
 
-app.get("./getpdf", (req, res) => {
+app.get("/getpdf", (req, res) => {
   fs.readFile("./demo.pdf", (err, data) => {
     if (err) {
       console.error("Error reading PDF file:", err);
