@@ -10,6 +10,7 @@ function Home() {
     <>
       <header className="header-area header-sticky">
         <div className="container">
+          
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
