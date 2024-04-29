@@ -1,0 +1,19 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Watermark Preview</title>
+</head>
+<body>
+    <h1>PDF Watermark Preview</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="pdf">Upload PDF:</label>
+        <input type="file" name="pdf" id="pdf" accept=".pdf"><br>
+        <label for="logo">Upload Logo:</label>
+        <input type="file" name="logo" id="logo" accept=".png, .jpg, .jpeg"><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
